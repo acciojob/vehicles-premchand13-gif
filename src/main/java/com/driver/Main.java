@@ -6,5 +6,10 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
+        mercedes.steer(20);
+        System.out.println("hello");
+        Boat b=new Boat("titanic",100);
+        System.out.println(b.getVehicleCapacity());
+        System.out.println(b.getVehicleName());
     }
 }
